@@ -4,9 +4,9 @@
     overflow-x: hidden;
 }
 .game{
-    width: 500px;
-    height: 200px;
-    border: 1px solid black;
+    width: 499px;
+    height: 230px;
+    border: 3px solid black;
     margin: auto;
 }
 #character{
@@ -15,6 +15,22 @@
     background-image: url(assets/green-character.gif);
     position:relative;
     top: 150px;
+}
+
+#sky{
+width: 500px;
+height: 150px;
+background-image: url(assets/sky.png);
+position: fixed;
+top: 1px;
+}
+
+#grass{ 
+width: 500px;
+height: 15px;
+background-image: url(assets/grass.png);
+position: relative;
+top: 120px;
 }
 .animate{
     animation: jump 0.3s linear;
