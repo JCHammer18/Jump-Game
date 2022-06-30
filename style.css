@@ -43,6 +43,14 @@ top: 120px;
     100%{top: 150px;}
 }
 
+#sun{
+    background-image: url(assets/sun.png);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 60%;
+}
+
 #block{
     background-image: url(assets/rock.png);
     width: 26px;
